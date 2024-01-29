@@ -97,7 +97,7 @@ const DynamicProducts=()=>{
     return(
         <>
         {dynamicLinks.map(elem=>(
-            <Link href={elem.path}>
+            <Link href={elem.path} key={elem.title}>
                 <div className={styles.product_image_hldr}>
                 <Image src={elem.img} alt={elem.productName + "Image"} height={100} width={100} priority="false" unoptimized loading="eager"/>
                 </div>

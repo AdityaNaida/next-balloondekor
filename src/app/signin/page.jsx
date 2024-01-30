@@ -1,7 +1,8 @@
+import Signin from "@/components/SigninPage/Signin";
 const SignIn=()=>{
     return(
         <>
-        <p>This is Sign In page</p>
+        <Signin/>
         </>
     )
 }

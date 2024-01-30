@@ -4,32 +4,32 @@ import styles from "@/components/homepage/home.module.css";
 const Explorelinks2 = () => {
     const explorelinks2 = [
         {
-            img: '/cat-explore7.jpg',
+            img: '/cat-explore7.webp',
             title : 'Combos',
             path: '/category'
         },
         {
-            img: '/cat-explore8.jpg',
+            img: '/cat-explore8.webp',
             title : 'Christmass',
             path: '/category'
         },
         {
-            img: '/cat-explore9.jpg',
+            img: '/cat-explore9.webp',
             title : 'Flowers',
             path: '/category'
         },
         {
-            img: '/cat-explore10.jpg',
+            img: '/cat-explore10.webp',
             title : 'Birthday',
             path: '/category'
         },
         {
-            img: '/cat-explore11.jpg',
+            img: '/cat-explore11.webp',
             title : 'Plant',
             path: '/category'
         },
         {
-            img: '/cat-explore12.jpg',
+            img: '/cat-explore12.webp',
             title : 'Party',
             path: '/category'
         }

@@ -1,7 +1,14 @@
+import CategoryHeading from "@/components/category/CategoryHeading";
+import Categoryupper from "@/components/category/Categoryupper";
+import CategoryProducts from '@/components/category/CategoryProducts';
 const Category=()=>{
     return(
         <>
-        <p>Category Page</p>
+    
+        <CategoryHeading />
+        <Categoryupper />
+        <CategoryProducts />
+
         </>
     )
 }
